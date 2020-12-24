@@ -73,14 +73,14 @@ def worker():
 	"""
 	c = 0
 	while True:
-	if len(port_list) > 0:
-	    port = port_list[c]
-	    port_list.remove(port)
-	    if portScan(port):
-		print(f"Port {port} is open!")
-		open_ports.append(port)
-	else:
-	    break
+		if len(port_list) > 0:
+		    port = port_list[c]
+		    port_list.remove(port)
+		    if portScan(port):
+		    	print(f"Port {port} is open!")
+		    	open_ports.append(port)
+		else:
+		    break
 
 
 def preatyPrint():
