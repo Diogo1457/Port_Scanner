@@ -1,3 +1,3 @@
 # Port_Scanner
 ### Not Fast
-### To slow
+### It's very slow
