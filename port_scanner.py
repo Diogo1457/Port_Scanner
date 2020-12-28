@@ -147,7 +147,7 @@ for c in range(500):
 for thread in thread_list:
 	thread.start()
 
-for thr in thread_list:
+for thread in thread_list:
 	thread.join()
 
 l(50)
