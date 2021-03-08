@@ -1,10 +1,14 @@
-from socket import AF_INET, SOCK_STREAM, socket
-from threading import Thread
-import argparse
-import os
-from random import choice
-import time
-from datetime import datetime
+try:
+    from socket import AF_INET, SOCK_STREAM, socket
+    from threading import Thread
+    import argparse
+    import os
+    from random import choice
+    import time
+    from datetime import datetime
+except Exception as e:
+    print("[EXCEPTION] ", e)
+    exit()
 
 numbers = "1234567890"
 
