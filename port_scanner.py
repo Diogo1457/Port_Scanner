@@ -167,6 +167,7 @@ def portScan(port):
         return False
     else:
         return True
+        SERVER.close()
 
 
 def scan():
